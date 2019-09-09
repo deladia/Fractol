@@ -81,7 +81,7 @@ void	print(void)
 	ft_putstr("\n\033[031mWrong argument\n\n\033[033mChoose one of:\n"
 	"  \033[032m'Mandelbrot'\n  'Julia'\n"
 	"  'Burning Ship'\n  'Mandelbar'\n  'Celtic Mandelbar'\n"
-"  'Perpendicular Mandelbrot'\n  'Butterfly'\n  'Spider\n'");
+"  'Perpendicular Mandelbrot'\n  'Butterfly'\n  'Spider'\n");
 }
 
 int		main(int argc, char **argv)
