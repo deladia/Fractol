@@ -32,6 +32,10 @@ int		print_fractol_name(t_fractol *f)
 				"Perpendicular");
 		mlx_string_put(f->mlx_ptr, f->win_ptr, 40, 150, 0x0000FF, "Mandelbrot");
 	}
+	else if (f->key1 == 'G')
+		mlx_string_put(f->mlx_ptr, f->win_ptr, 20, 120, 0x0000FF, "Butterfly");
+	else if (f->key1 == 'H')
+		mlx_string_put(f->mlx_ptr, f->win_ptr, 20, 120, 0x0000FF, "Spider");
 	return (OK);
 }
 

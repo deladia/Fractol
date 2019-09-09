@@ -93,6 +93,23 @@ __kernel void vadd( __global int *arr, int side_x, int side_y, double move_x, do
             i++;
         }
     }
+    if (key == 'G')
+    {
+        while (z.re * z.re + z.im * z.im <= 4 && i < repeat)
+        {
+            z = init_complex(z.re * z.re - z.im * z.im + c.re, -2.0 * z.re * z.re / z.im + c.im);
+            i++;
+        }
+    }
+    if (key == 'H')
+    {
+        while (z.re * z.re + z.im * z.im <= 4 && i < repeat)
+        {
+            z = init_complex(z.re * z.re - z.im * z.im + c.re, 2.0 * z.re * z.im + c.im);
+            c = init_complex(c.re / 2 + z.re, c.im / 2 + z.im);
+            i++;
+        }
+    }
     if (color == 0xFFFFFF || color == 0x00FFFF || color == 0x0000CD)
     {
         t = (double)i / (double)repeat;

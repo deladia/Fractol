@@ -14,7 +14,7 @@
 
 int		next_fractol(t_fractol *fract)
 {
-	if (fract->key1 != 'F')
+	if (fract->key1 != 'H')
 		fract->key1++;
 	else
 		fract->key1 = 'A';
