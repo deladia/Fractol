@@ -6,7 +6,7 @@
 /*   By: deladia <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/01 21:57:30 by deladia           #+#    #+#             */
-/*   Updated: 2019/09/01 21:57:32 by deladia          ###   ########.fr       */
+/*   Updated: 2019/11/11 17:18:05 by deladia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@
 # include <fcntl.h>
 # include <unistd.h>
 # include <math.h>
-# include "libft/libft.h"
+# include "libft.h"
 # define SIDE_Y 1000
 # define SIDE_X 1500
 # define READ_ERROR 23
